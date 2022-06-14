@@ -1,0 +1,8 @@
+name: Manual Workflow
+on: 
+  workflow_dispatch:
+    inputs:
+      tags:
+        description: 'Description'  
+        required: true
+        default: 'warning'
